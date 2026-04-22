@@ -7,7 +7,12 @@
   2.6) Contar o número de notas totais informadas, número de notas menores que 6.0 e o número de notas entre 6.00 e 10.00*/
 
   #include<stdio.h>
+#define Total_Notas 100
 
-  int main(){
+int main(void){
+    float notas[Total_Notas] = {0};
+    int qtd = 0;
+    
     return 0;
-  }
+}
+
